@@ -1,0 +1,55 @@
+@keyframes color-change {
+    0% { color: green; } /* Başlangıç rengi */
+    25% { color: red; } /* Animasyonun ortasında rengi */
+    50% { color: blue; } /* Son rengi */
+    75% { color: red; }
+    100% { color: green; }
+}
+@keyframes renkdegis {
+    0% { color: rgb(0, 0, 0); } /* Başlangıç rengi */
+    25% { color: rgb(77, 77, 77); } /* Animasyonun ortasında rengi */
+    50% { color: rgb(255, 255, 255); } /* Son rengi */
+    75% { color: rgb(77, 77, 77); }
+    100% { color: rgb(0, 0, 0); }
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    animation: color-change 3s infinite; 
+}
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    animation: color-change 3s infinite; 
+}
+h1{
+    animation: renkdegis 3s infinite;
+}
+body {
+    /* Yazı tipi ailesi */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* etiketindeki ana yazının boyutu */
+    font-size: 20px;
+    /* Web sayfasının arka plan rengi */
+    background-color: #0059ffa7;
+    /* Metin rengi */
+    color: #000000;
+}
+
+
+
+ol {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(0, 0, 0);
+    color: gray;
+    font-size: 25px; /* veya başka bir boyut belirleyebilirsiniz */
+
+}
+
+li span {
+    font-size: 35px; /* veya başka bir boyut belirleyebilirsiniz */
+}
